@@ -1,4 +1,4 @@
-// +build !linux,!darwin,!windows,!freebsd,!dragonfly,!netbsd,!openbsd
+//go:build !linux && !darwin && !windows && !freebsd && !dragonfly && !netbsd && !openbsd
 
 package memory
 

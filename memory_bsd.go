@@ -1,4 +1,4 @@
-// +build freebsd openbsd dragonfly netbsd
+//go:build freebsd || openbsd || dragonfly || netbsd
 
 package memory
 
